@@ -88,21 +88,21 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-19 08:00:05</sys_created_on>
+            <sys_created_on>2017-09-05 16:55:01</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e83f36694fc403004da2b7a18110c7f2</sys_id>
+            <sys_id>f8f5c0d50f814300cc49adabe1050e85</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_80311_security_i_severity_lookup</sys_name>
-            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
             <sys_update_name>sys_ui_list_x_80311_security_i_severity_lookup_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-19 08:00:05</sys_updated_on>
-            <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <sys_updated_on>2017-09-05 16:55:01</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Severity Lookup" max_length="40" name="x_80311_security_i_severity_lookup" type="collection">
+        <element choice="1" choice_field="impact" choice_table="x_80311_security_incident_request" label="Impact" max_length="40" name="impact" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="x_80311_security_i_u_risk" choice_table="x_80311_security_incident_request" label="Risk" max_length="40" name="risk" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="x_80311_security_i_u_severity" choice_table="x_80311_security_incident_request" label="Severity" max_length="40" name="severity" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

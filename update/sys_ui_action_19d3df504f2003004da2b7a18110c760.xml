@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>gs.hasRole('x_80311_security_i.sec_agent') &amp;&amp; (current.state == 100 || current.incident_state == 3 )</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint>Create Knowledge Article from the Security Incident Details</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Knowledge</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var sub = gs.getProperty('glide.knowman.submission.workflow');
+
+if(sub == 'true') {
+	submitCandidate();
+} else {
+	postKB();
+}
+
+current.update();
+
+function postKB(){
+	var recKnw = new GlideRecord("kb_knowledge");
+	var strNbr = current.number;
+	var strNts = current.short_description;
+	recKnw.short_description = (strNbr + ' ' + strNts);
+	recKnw.kb_knowledge_base = '52aea4014f0c03004da2b7a18110c70b';
+	recKnw.topic = 'General';
+	
+	recKnw.workflow_state = 'draft';
+	recKnw.text = "<h2>Description:</h2>" + current.description + "<br>" +
+	"<h3>Closure Info:</h3>" + current.x_80311_security_i_u_close_code + "<br>" +"<h4>Closure Detail:</h4>" + current.close_notes ;
+	
+	recKnw.cmdb_ci = current.cmdb_ci;
+	recKnw.insert();
+	action.setRedirectURL(recKnw);
+	gs.addInfoMessage('Please complete this draft knowledge article...');
+}
+
+function submitCandidate() {
+	var gr = new GlideRecord('kb_submission');
+	gr.initialize();
+	gr.parent = current.sys_id;
+	gr.topic = 'General';
+	var strNbr = current.number;
+	var strNts = current.short_description;
+	gr.short_description = (strNbr + ' ' + strNts);
+	gr.text = "<h3>Description:</h3>" + current.description;
+	gr.insert();
+	gs.addInfoMessage('Knowledge submission created: ' + gr.number);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-09 08:56:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19d3df504f2003004da2b7a18110c760</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Create Knowledge</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_ui_action_19d3df504f2003004da2b7a18110c760</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 15:20:12</sys_updated_on>
+        <table>x_80311_security_incident_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

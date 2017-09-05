@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Security Incident Catalog">ceae64014f0c03004da2b7a18110c7e1</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-17 08:11:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0eae64014f0c03004da2b7a18110c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident Catalog.catalog_security_incident_catalog</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_security_incident_catalog">ceae64014f0c03004da2b7a18110c7fd</sys_portal_page>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_0eae64014f0c03004da2b7a18110c7fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-17 08:11:38</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

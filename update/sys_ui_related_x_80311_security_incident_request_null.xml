@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_80311_security_incident_request" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>task_ci.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>3b7d45ce4f8043004da2b7a18110c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_80311_security_incident_task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>737d45ce4f8043004da2b7a18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:9d3ffe10df221100dca6a5f59bf2637a</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>777d45ce4f8043004da2b7a18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>dms_document.service_order</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>7b7d45ce4f8043004da2b7a18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-07-24 13:17:33</sys_created_on>
+            <sys_id>bfc7f5df4f84c3004da2b7a18110c7f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-07-24 13:17:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>7f7d45ce4f8043004da2b7a18110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Security Incident Request - Default view" name="x_80311_security_incident_request" related_list="NULL" sys_domain="global" view="Default view">bb7d45ce4f8043004da2b7a18110c72d</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>task_activity.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_id>737d45ce4f8043004da2b7a18110c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Security Incident Request - Default view</calculated_name>
+            <filter/>
+            <name>x_80311_security_incident_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 13:00:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb7d45ce4f8043004da2b7a18110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Security Incident Request - Default view</sys_name>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_ui_related_x_80311_security_incident_request_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 13:00:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

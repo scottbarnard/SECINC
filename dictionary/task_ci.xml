@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CI impactés" max_length="40" name="task_ci" type="collection">
+        <element label="Task" max_length="32" name="task" reference="task" reference_floats="true" type="reference"/>
+        <index name="index">
+            <element name="task"/>
+        </index>
+    </element>
+</database>

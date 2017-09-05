@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>placeholder script for swapping assign group based on - country of on behalf of.  Note will need to update when groups are known from our environment. Note there are also 2 business rules but this is for the client side&#13;
+&#13;
+May need to swap the condition to domain but trying to avoid using domain</description>
+        <field>x_80311_security_i_u_on_behalf_of</field>
+        <global>true</global>
+        <messages/>
+        <name>CHGAssigngroup</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	//instantiate the SecIncidentAjax script include
+   var getctry = new GlideAjax('SecIncidentAjax');
+	// Specify the getCountry method
+	getctry.addParam('sysparm_name','getCountry');
+	// Pass the Requested for sys_id
+	getctry.addParam('sysparm_userID', g_form.getValue('x_80311_security_i_u_on_behalf_of'));
+	// Send the request to the server
+	getctry.getXML(populateCountryField);
+	
+	// When the response is back from the server
+	function populateCountryField(response){
+		// Extract the country from the response, clear any value from the assig grp field, 
+		
+		var countryFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue('assignment_group');
+		
+		// set new value in the  field
+		
+		if (countryFromScriptInclude == 'FR') {
+		g_form.setValue('assignment_group','5c8e07046faa5e00fbd1b1b3dd3ee4cf');
+		}
+		else if (countryFromScriptInclude == 'UK') {
+		g_form.setValue('assignment_group','a6bd2d6fdbddbe806157fd871d961980');
+		}
+		else if (countryFromScriptInclude == 'PL') {
+		g_form.setValue('assignment_group','88e241586fc14640fbd1b1b3dd3ee4a0');
+		}
+		else  {
+		g_form.setValue('assignment_group', '6b8162bf0f300300cc49adabe1050e5b');
+		}
+	 }
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 15:22:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d8de8be4fe043004da2b7a18110c7e6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>CHGAssigngroup</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_script_client_4d8de8be4fe043004da2b7a18110c7e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-01 14:16:30</sys_updated_on>
+        <table>x_80311_security_incident_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

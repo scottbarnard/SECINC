@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_80311_security_i_airbus_engaged" label="Airbus Engaged" language="en" table="x_80311_security_incident_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_airbus_engaged</element>
+            <help/>
+            <hint/>
+            <label>Airbus Engaged</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <plural>Airbus Engaged</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Scott@thebarnards.org</sys_created_by>
+            <sys_created_on>2017-08-25 09:47:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bf8af961db3c8f40cfdefda41d961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80311_security_incident_request</sys_name>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_documentation_x_80311_security_incident_request_x_80311_security_i_airbus_engaged_en</sys_update_name>
+            <sys_updated_by>Scott@thebarnards.org</sys_updated_by>
+            <sys_updated_on>2017-08-25 09:47:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

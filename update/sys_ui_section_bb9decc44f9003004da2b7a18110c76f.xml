@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Related Records" section_id="bb9decc44f9003004da2b7a18110c76f" sys_domain="global" table="x_80311_security_incident_request" version="3" view="secure">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_parent_incident</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:52</sys_created_on>
+            <sys_id>7f9decc44f9003004da2b7a18110c7ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_problem_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:52</sys_created_on>
+            <sys_id>ff9decc44f9003004da2b7a18110c7ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:52</sys_created_on>
+            <sys_id>739decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_caused_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:52</sys_created_on>
+            <sys_id>f39decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_caused_by_release</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:53</sys_created_on>
+            <sys_id>779decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:53</sys_created_on>
+            <sys_id>f79decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_relations.xml</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:53</sys_created_on>
+            <sys_id>7b9decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">40bcaf630a0a0aa1001c2747a91ef801</sys_ui_formatter>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:53</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attached_knowledge</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:53</sys_created_on>
+            <sys_id>3f9decc44f9003004da2b7a18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Attached Knowledge">cfa76e850a0a0b1f01446f67c8538d00</sys_ui_formatter>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_80311_security_incident_request" sys_domain="global" view="379decc44f9003004da2b7a18110c76b">bb9decc44f9003004da2b7a18110c76f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:53</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Related Records</caption>
+            <header>false</header>
+            <name>x_80311_security_incident_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-26 15:48:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb9decc44f9003004da2b7a18110c76f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Related Records</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_ui_section_bb9decc44f9003004da2b7a18110c76f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-26 15:48:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="secure" name="secure">379decc44f9003004da2b7a18110c76b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

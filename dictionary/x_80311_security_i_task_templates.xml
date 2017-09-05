@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="sys_template" label="Task Templates" max_length="40" name="x_80311_security_i_task_templates" type="collection"/>
+</database>

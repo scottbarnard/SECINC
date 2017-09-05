@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config_module">
+    <sm_config_module action="INSERT_OR_UPDATE">
+        <app_name display_value="Security Incident">5baee4014f0c03004da2b7a18110c736</app_name>
+        <aspect>dispatch_queue</aspect>
+        <associated_mobile_module display_value="My Dispatch Map">2baee4014f0c03004da2b7a18110c75a</associated_mobile_module>
+        <associated_module/>
+        <on>true</on>
+        <sys_class_name>sm_config_module</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-09-01 12:24:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d091a2bf0f300300cc49adabe1050e04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5baee4014f0c03004da2b7a18110c736</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sm_config_module_d091a2bf0f300300cc49adabe1050e04</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-09-01 12:24:03</sys_updated_on>
+    </sm_config_module>
+</record_update>

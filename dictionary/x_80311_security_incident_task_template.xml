@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_servicetask_product_model" label="Security Incident Task Template" max_length="40" name="x_80311_security_incident_task_template" type="collection"/>
+</database>

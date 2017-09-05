@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_80311_security_i_sfncident_task">
+    <x_80311_security_i_sfncident_task action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string>!current.template.nil() &amp;&amp; !current.parent.task_created</automatic_string>
+        <business_rule display_value="Ready for work">089e20014f0c03004da2b7a18110c75d</business_rule>
+        <change_client_script/>
+        <client_script display_value="x_80311_security_incident_task state flo">6f869d964f8843004da2b7a18110c7b9</client_script>
+        <comment>Security Incident Request State flow</comment>
+        <derived_from display_value="Ready for work">61feb353df312100dca6a5f59bf263e4</derived_from>
+        <end_text>10</end_text>
+        <ending_state display_value="Pending Assignment">168eaccd4fc803004da2b7a18110c7f2</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script><![CDATA[if ((action.getGlideURI()+"").indexOf('_list.do?') < 0)
+	action.setRedirectURL(current);]]></manual_script>
+        <manual_string>(new global.SMTask()).showReadyForWork(current)</manual_string>
+        <name>Ready for work</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010018</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>1</start_text>
+        <starting_state display_value="Draft">928eaccd4fc803004da2b7a18110c7ef</starting_state>
+        <sys_class_name>x_80311_security_i_sfncident_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-17 08:11:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>409e20014f0c03004da2b7a18110c75d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ready for work</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>x_80311_security_i_sfncident_task_409e20014f0c03004da2b7a18110c75d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-21 08:18:21</sys_updated_on>
+        <table>x_80311_security_incident_task</table>
+        <translated_ending_state>Pending Assignment</translated_ending_state>
+        <translated_starting_state>Draft</translated_starting_state>
+        <ui_action display_value="Ready for work">8c9e20014f0c03004da2b7a18110c760</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_80311_security_i_sfncident_task>
+</record_update>

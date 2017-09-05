@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_template_definition">
+    <sm_template_definition action="INSERT_OR_UPDATE">
+        <associated_variable/>
+        <field>x_80311_security_i_security_category</field>
+        <mandatory>false</mandatory>
+        <show>false</show>
+        <sys_class_name>sm_template_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-21 10:42:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da97759a4fc843004da2b7a18110c791</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sm_template_definition_da97759a4fc843004da2b7a18110c791</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-21 10:42:42</sys_updated_on>
+        <table>x_80311_security_incident_request</table>
+        <template display_value="">5a97b91a4fc843004da2b7a18110c7f6</template>
+        <value>1</value>
+    </sm_template_definition>
+</record_update>

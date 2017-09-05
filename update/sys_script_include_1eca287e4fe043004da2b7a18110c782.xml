@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_80311_security_i.SecIncidentAjax</api_name>
+        <client_callable>true</client_callable>
+        <description>Utility include that is client callable for use with client scripts&#13;
+Please include a comment for what your added function does. The basic start item is a user property of country. Depending on functionality needed it may be useful to create a getUserInfo function that returns the more popular user properties.</description>
+        <name>SecIncidentAjax</name>
+        <script><![CDATA[var SecIncidentAjax = Class.create();
+SecIncidentAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	//get the country from the user record
+	getCountry: function() {
+		
+	var userRecord = new GlideRecord("sys_user");
+	userRecord.get(this.getParameter('sysparm_userID'));
+	return userRecord.country + '';
+	},
+	
+	
+    type: 'SecIncidentAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 15:07:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1eca287e4fe043004da2b7a18110c782</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SecIncidentAjax</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_script_include_1eca287e4fe043004da2b7a18110c782</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 14:13:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

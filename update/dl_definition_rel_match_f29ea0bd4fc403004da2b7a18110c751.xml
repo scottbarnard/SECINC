@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Severity Lookup">e2e3032d4fc403004da2b7a18110c700</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_80311_security_i_severity_lookup</matcher_table>
+        <matcher_table_field>risk</matcher_table_field>
+        <source_table>x_80311_security_incident_request</source_table>
+        <source_table_field>x_80311_security_i_u_risk</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 16:07:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f29ea0bd4fc403004da2b7a18110c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_80311_security_i_u_risk</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>dl_definition_rel_match_f29ea0bd4fc403004da2b7a18110c751</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 16:07:06</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

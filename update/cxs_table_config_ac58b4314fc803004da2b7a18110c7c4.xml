@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="cxs_table_config">
+    <cxs_table_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_expand_collapse>false</allow_expand_collapse>
+        <cxs_context_config display_value="Knowledge Base Search">03ddb541c31121005655107698ba8f7f</cxs_context_config>
+        <kb_attachment>embed_article</kb_attachment>
+        <limit>10</limit>
+        <match_condition table="x_80311_security_incident_request">short_descriptionISNOTEMPTY^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </match_condition>
+        <name>Security Incident Request [x_80311_security_incident_request]</name>
+        <result_action_label>This helped</result_action_label>
+        <result_action_value>This helped</result_action_value>
+        <results_header_text>Knowledge results</results_header_text>
+        <results_per_page>10</results_per_page>
+        <search_as_active>false</search_as_active>
+        <search_as_condition/>
+        <search_as_field>assigned_to</search_as_field>
+        <search_as_results_msg>Some results may not be displayed due to security constraints</search_as_results_msg>
+        <search_as_script/>
+        <sys_class_name>cxs_table_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-19 16:50:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac58b4314fc803004da2b7a18110c7c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident Request [x_80311_security_incident_request]</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>cxs_table_config_ac58b4314fc803004da2b7a18110c7c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-19 16:50:40</sys_updated_on>
+        <table>x_80311_security_incident_request</table>
+    </cxs_table_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac58b4314fc803004da2b7a18110c7c4"/>
+</record_update>

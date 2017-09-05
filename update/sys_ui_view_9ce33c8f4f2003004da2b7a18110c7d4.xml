@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,my_request</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>carol.coughlin</sys_created_by>
+        <sys_created_on>2017-08-17 10:13:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ce33c8f4f2003004da2b7a18110c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,my_request</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_ui_view_9ce33c8f4f2003004da2b7a18110c7d4</sys_update_name>
+        <sys_updated_by>carol.coughlin</sys_updated_by>
+        <sys_updated_on>2017-08-17 10:13:41</sys_updated_on>
+        <title>Sys_popup,my_request</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

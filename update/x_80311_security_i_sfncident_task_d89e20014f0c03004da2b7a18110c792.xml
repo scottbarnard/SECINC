@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_80311_security_i_sfncident_task">
+    <x_80311_security_i_sfncident_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script display_value="x_80311_security_incident_task state flo">6f869d964f8843004da2b7a18110c7b9</client_script>
+        <comment>Security Incident Request State flow</comment>
+        <derived_from display_value="Cancel">a5feb353df312100dca6a5f59bf263e5</derived_from>
+        <end_text>7</end_text>
+        <ending_state display_value="Cancelled">228eeccd4fc803004da2b7a18110c70b</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition table="x_80311_security_incident_task">stateNOT IN3,4,7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </manual_condition>
+        <manual_roles/>
+        <manual_script><![CDATA[if (current.getValue("work_notes") == '' && (new sn_sm.SMConfiguration()).isEnabled(current, "mandatory_work_notes", "false")) {
+	gs.addErrorMessage('Provide a reason for cancellation in Work notes');
+	current.setAbortAction(true);
+	action.setRedirectURL(current);
+}
+]]></manual_script>
+        <manual_string>!current.isNewRecord() &amp;&amp; current.canWrite()</manual_string>
+        <name>Cancel</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010023</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>x_80311_security_i_sfncident_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-17 08:11:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d89e20014f0c03004da2b7a18110c792</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>x_80311_security_i_sfncident_task_d89e20014f0c03004da2b7a18110c792</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-21 08:18:21</sys_updated_on>
+        <table>x_80311_security_incident_task</table>
+        <translated_ending_state>Cancelled</translated_ending_state>
+        <translated_starting_state/>
+        <ui_action display_value="Cancel Task">909e20014f0c03004da2b7a18110c793</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_80311_security_i_sfncident_task>
+</record_update>

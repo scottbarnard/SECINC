@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="26aea4014f0c03004da2b7a18110c751" sys_domain="global" table="x_80311_security_i_sfncident_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-17 08:11:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6eaea4014f0c03004da2b7a18110c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80311_security_i_sfncident_task" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">26aea4014f0c03004da2b7a18110c751</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">a2aea4014f0c03004da2b7a18110c74e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-17 08:11:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-17 08:11:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2aea4014f0c03004da2b7a18110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80311_security_i_sfncident_task" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">26aea4014f0c03004da2b7a18110c751</sys_ui_form>
+            <sys_ui_section caption="Manual" display_value="Manual" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">26aea4014f0c03004da2b7a18110c756</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-17 08:11:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-17 08:11:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62aea4014f0c03004da2b7a18110c75f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80311_security_i_sfncident_task" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">26aea4014f0c03004da2b7a18110c751</sys_ui_form>
+            <sys_ui_section caption="Automatic" display_value="Automatic" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">a6aea4014f0c03004da2b7a18110c75c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-17 08:11:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-17 08:11:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aaea4014f0c03004da2b7a18110c766</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80311_security_i_sfncident_task" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">26aea4014f0c03004da2b7a18110c751</sys_ui_form>
+            <sys_ui_section caption="Field Controls" display_value="Field Controls" name="x_80311_security_i_sfncident_task" sys_domain="global" view="Default view">6aaea4014f0c03004da2b7a18110c763</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-17 08:11:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_80311_security_i_sfncident_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-17 08:11:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26aea4014f0c03004da2b7a18110c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80311_security_i_sfncident_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_ui_form_sections_26aea4014f0c03004da2b7a18110c751</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-17 08:11:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

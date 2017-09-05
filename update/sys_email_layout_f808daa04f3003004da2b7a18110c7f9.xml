@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<table width="755" height="193">
+<tbody>
+<tr>
+<td><img src="sys_attachment.do?sys_id=6f389e204f3003004da2b7a18110c7fa" vspace="" hspace="" border="" align="baseline" alt="" title="" style="align: baseline;" /><img src="sys_attachment.do?sys_id=2afcdc4ddbb40f00e386f3731d96198d" vspace="" hspace="" border="" align="baseline" style="align: baseline;" /></td>
+</tr>
+<tr>
+<td>
+<p></p>
+<p>${notification:body}</p>
+<p></p>
+</td>
+</tr>
+<tr>
+<td><img src="sys_attachment.do?sys_id=70c89e204f3003004da2b7a18110c72a" vspace="" hspace="" border="" align="baseline" alt="" title="" style="align: baseline;" /><img src="sys_attachment.do?sys_id=e70ddc4ddbb40f00e386f3731d961916" vspace="" hspace="" border="" align="baseline" style="align: baseline;" /></td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>Airbus Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-22 09:25:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f808daa04f3003004da2b7a18110c7f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Airbus Layout</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_email_layout_f808daa04f3003004da2b7a18110c7f9</sys_update_name>
+        <sys_updated_by>Scott@thebarnards.org</sys_updated_by>
+        <sys_updated_on>2017-08-23 13:41:55</sys_updated_on>
+    </sys_email_layout>
+</record_update>

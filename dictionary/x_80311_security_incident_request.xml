@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="sm_order" label="Security Incident Request" max_length="40" name="x_80311_security_incident_request" sizeclass="2" type="collection">
+        <element label="Airbus Engaged" max_length="40" name="x_80311_security_i_airbus_engaged" type="boolean"/>
+        <element label="Caused by Change" max_length="32" name="x_80311_security_i_caused_by" reference="change_request" type="reference"/>
+        <element label="Caused by Release" max_length="32" name="x_80311_security_i_caused_by_release" reference="rm_release" type="reference"/>
+        <element label="New respondents" max_length="4000" name="x_80311_security_i_new_respondents" reference="sys_user" type="glide_list"/>
+        <element label="Parent Incident" max_length="32" name="x_80311_security_i_parent_incident" reference="incident" type="reference"/>
+        <element label="Post incident report" max_length="65536" name="x_80311_security_i_pir" type="html"/>
+        <element label="Related Problem" max_length="32" name="x_80311_security_i_problem_id" reference="problem" type="reference"/>
+        <element label="Request assessments" max_length="1024" name="x_80311_security_i_request_assessments" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="x_80311_security_i_security_category" type="string">
+            <choice>
+                <element label="Unauthorised Access" sequence="0" value="1"/>
+                <element label="Data Leakage" sequence="1" value="2"/>
+                <element label="Business Disruption" sequence="2" value="3"/>
+                <element label="Theft or loss of sensitive asset" sequence="3" value="4"/>
+                <element label="Fraud attempt" sequence="4" value="5"/>
+                <element label="Security policy violation" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Forensic" max_length="32" name="x_80311_security_i_u_airbus" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Airbus Ref" max_length="40" name="x_80311_security_i_u_airbus_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="x_80311_security_i_u_close_code" type="string">
+            <choice>
+                <element label="Investigation completed" sequence="0" value="Investigation completed"/>
+                <element label="Threat Mitigated" sequence="1" value="Threat Mitigated"/>
+                <element label="Patched vulnerability" sequence="2" value="Patched vulnerability"/>
+                <element label="Invalid vulnerability" sequence="3" value="Invalid vulnerability"/>
+                <element label="Not resolved" sequence="4" value="Not resolved"/>
+                <element label="False positive" sequence="5" value="False positive"/>
+            </choice>
+        </element>
+        <element attributes="no_audit=true,no_sort=true" label="Test locked text" max_length="65536" name="x_80311_security_i_u_glide_encrypted_1" type="glide_encrypted"/>
+        <element label="On Behalf Of" max_length="32" name="x_80311_security_i_u_on_behalf_of" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Risk" max_length="40" name="x_80311_security_i_u_risk" type="string">
+            <choice>
+                <element label="1 - Critical" sequence="10" value="1"/>
+                <element label="2 - High" sequence="20" value="2"/>
+                <element label="3 - Moderate" sequence="30" value="3"/>
+                <element label="4 - Low" sequence="40" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="4" label="Severity" max_length="40" name="x_80311_security_i_u_severity" read_only="true" type="string">
+            <choice>
+                <element label="1 - Critical" sequence="10" value="1"/>
+                <element label="2 - High" sequence="20" value="2"/>
+                <element label="3 - Moderate" sequence="30" value="3"/>
+                <element label="4 - Low" sequence="40" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="x_80311_security_i_security_category" dependent_on_field="x_80311_security_i_security_category" label="Subcategory" mandatory="true" max_length="40" name="x_80311_security_i_u_subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="2" label="Data leakage detection" sequence="0" value="Data leakage detection"/>
+                <element dependent_value="3" label="Denial of Service" sequence="0" value="Denial of Service"/>
+                <element label="Server or other device breach" sequence="0" value="Server or other device breach"/>
+                <element dependent_value="1" label="Server or other device breach" sequence="0" value="Server or other device breach"/>
+                <element dependent_value="5" label="Spear Phishing" sequence="0" value="Spear Phishing"/>
+                <element dependent_value="4" label="Theft or loss of sensitive asset" sequence="0" value="Theft or loss of sensitive asset"/>
+                <element dependent_value="5" label="CEO fraud" sequence="1" value="CEO fraud"/>
+                <element dependent_value="1" label="Change to privileged group" sequence="1" value="Unauthorised change to privileged group"/>
+                <element dependent_value="3" label="Defacement of Website" sequence="1" value="Defacement of Website"/>
+                <element dependent_value="2" label="Sensitive Information exposure" sequence="1" value="Sensitive Information exposure"/>
+                <element label="Unauthorised changes  to groups" sequence="1" value="Unauthorised changes  to groups"/>
+                <element dependent_value="1" label="Creation of privileged account" sequence="2" value="Unauthorised Privileged account"/>
+                <element dependent_value="6" label="Policy violation by employee" sequence="2" value="Policy violation by employee"/>
+                <element dependent_value="3" label="Ransomware" sequence="2" value="Ransomware"/>
+                <element dependent_value="5" label="Supplier account change" sequence="2" value="Supplier account change"/>
+                <element label="Unauthorised privileged accounts" sequence="2" value="Unauthorised privileged accounts"/>
+                <element dependent_value="3" label="Other cyber attack" sequence="3" value="Other cyber attack"/>
+                <element dependent_value="6" label="Policy violation by contractor" sequence="3" value="Policy violation by contractor"/>
+                <element label="Privilege escalation" sequence="3" value="Privilege escalation"/>
+                <element dependent_value="1" label="Privilege Escalation" sequence="3" value="Privilege Escalation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="template" max_length="40" name="x_80311_security_i_u_template" type="string">
+            <choice/>
+        </element>
+        <element label="Vendor" max_length="32" name="x_80311_security_i_u_vendor_1" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref" max_length="40" name="x_80311_security_i_u_vref_1" type="string"/>
+        <element label="Vendor" max_length="32" name="x_80311_security_i_vendor" reference="core_company" type="reference"/>
+        <element label="Vendor 2" max_length="32" name="x_80311_security_i_vendor_2" reference="core_company" type="reference"/>
+        <element label="Vendor 3" max_length="32" name="x_80311_security_i_vendor_3" reference="core_company" type="reference"/>
+        <element label="Vendor 4" max_length="32" name="x_80311_security_i_vendor_4" reference="core_company" type="reference"/>
+        <element label="Vendor 5" max_length="32" name="x_80311_security_i_vendor_5" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref" max_length="40" name="x_80311_security_i_vendor_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref 2" max_length="40" name="x_80311_security_i_vendor_ref_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref 3" max_length="40" name="x_80311_security_i_vendor_ref_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref 4" max_length="40" name="x_80311_security_i_vendor_ref_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref 5" max_length="40" name="x_80311_security_i_vendor_ref_5" type="string"/>
+    </element>
+</database>

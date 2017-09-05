@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>related_ci</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+          // Add your code here
+var i = 0;
+var gr = new GlideRecord('task_ci');
+gr.addQuery('task', current.sys_id);
+gr.query();
+
+while(gr.next()){
+i++;
+template.print('Affected CI: ' +i +"&emsp;" + gr.ci_item.name + "&emsp;&emsp;" + gr.ci_item.manufacturer.getDisplayValue() + "&emsp;&emsp;" + gr.ci_item.model_id.getDisplayValue() +"&emsp;&emsp; " + gr.ci_item.asset_tag.getDisplayValue() + "<br>");
+} 
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-21 14:50:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d269dad44fb003004da2b7a18110c7bd</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>related_ci</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_script_email_d269dad44fb003004da2b7a18110c7bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-22 11:25:07</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Severity Colour onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var e = gel("sys_readonly.x_80311_security_incident_request.x_80311_security_i_u_severity");
+	
+	if (e.options[e.selectedIndex].value == '1'){
+	e.style.backgroundColor = 'red';
+	}
+	if (e.options[e.selectedIndex].value == '2'){
+	e.style.backgroundColor = 'orange';
+	}
+	if (e.options[e.selectedIndex].value == '3'){
+	e.style.backgroundColor = 'yellow';
+	}
+	if (e.options[e.selectedIndex].value == '4'){
+	e.style.backgroundColor = 'lightblue';
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-16 11:32:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e1cfbe24fa043004da2b7a18110c77c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set Severity Colour onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_script_client_0e1cfbe24fa043004da2b7a18110c77c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-17 12:05:51</sys_updated_on>
+        <table>x_80311_security_incident_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

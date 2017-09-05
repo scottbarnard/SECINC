@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_80311_security_i_u_subcategory" table="x_80311_security_incident_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data leakage detection</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:15:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6c884e4f0043004da2b7a18110c7d8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:51:34</sys_updated_on>
+            <value>Data leakage detection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denial of Service</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2cccc4e4f0043004da2b7a18110c7fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:54:34</sys_updated_on>
+            <value>Denial of Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Server or other device breach</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 07:44:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5035cc4a4f0043004da2b7a18110c714</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:47:11</sys_updated_on>
+            <value>Server or other device breach</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Server or other device breach</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fbccca4f0043004da2b7a18110c738</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:47:24</sys_updated_on>
+            <value>Server or other device breach</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>5</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spear Phishing</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c9dc84e4f0043004da2b7a18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:20:58</sys_updated_on>
+            <value>Spear Phishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theft or loss of sensitive asset</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:19:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>994dc40e4f0043004da2b7a18110c7ee</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 12:01:12</sys_updated_on>
+            <value>Theft or loss of sensitive asset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>6</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Usage violation by employee</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afd888e4f0043004da2b7a18110c702</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 12:06:18</sys_updated_on>
+            <value>Usage violation by employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>5</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CEO fraud</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c9dc84e4f0043004da2b7a18110c7e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:20:58</sys_updated_on>
+            <value>CEO fraud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Defacement of Website</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2cccc4e4f0043004da2b7a18110c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:17:35</sys_updated_on>
+            <value>Defacement of Website</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>4</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Loss</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:19:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>994dc40e4f0043004da2b7a18110c7f0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 12:01:27</sys_updated_on>
+            <value>Loss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sensitive Information exposure</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:15:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f6c884e4f0043004da2b7a18110c7da</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:51:10</sys_updated_on>
+            <value>Sensitive Information exposure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change to privileged group</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fbccca4f0043004da2b7a18110c73a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:45:06</sys_updated_on>
+            <value>Unauthorised change to privileged group</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorised changes  to groups</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 07:44:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c35c08a4f0043004da2b7a18110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 07:44:22</sys_updated_on>
+            <value>Unauthorised changes  to groups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>6</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Usage violation by contractor</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afd888e4f0043004da2b7a18110c704</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 12:06:29</sys_updated_on>
+            <value>Usage violation by contractor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>6</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy violation by employee</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afd888e4f0043004da2b7a18110c706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:22:45</sys_updated_on>
+            <value>Policy violation by employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ransomware</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2cc808e4f0043004da2b7a18110c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:17:35</sys_updated_on>
+            <value>Ransomware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>5</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supplier account change</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:20:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>189dc88e4f0043004da2b7a18110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:20:58</sys_updated_on>
+            <value>Supplier account change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Creation of privileged account</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fbccca4f0043004da2b7a18110c73c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:46:04</sys_updated_on>
+            <value>Unauthorised Privileged account</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorised privileged accounts</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 07:44:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c35c08a4f0043004da2b7a18110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 07:44:22</sys_updated_on>
+            <value>Unauthorised privileged accounts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other cyber attack</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfec884e4f0043004da2b7a18110c7e0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-24 11:56:43</sys_updated_on>
+            <value>Other cyber attack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>6</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Policy violation by contractor</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afd888e4f0043004da2b7a18110c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:22:45</sys_updated_on>
+            <value>Policy violation by contractor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Privilege escalation</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 07:44:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c35c08a4f0043004da2b7a18110c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 07:44:22</sys_updated_on>
+            <value>Privilege escalation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>x_80311_security_i_u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Privilege Escalation</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 08:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9fbccca4f0043004da2b7a18110c73e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 08:13:55</sys_updated_on>
+            <value>Privilege Escalation</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_u_subcategory</element>
+            <name>x_80311_security_incident_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-20 07:44:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1230aefb0f300300cc49adabe1050e48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80311_security_i_u_subcategory</sys_name>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_choice_x_80311_security_incident_request_x_80311_security_i_u_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-20 07:44:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

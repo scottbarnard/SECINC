@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>There are some active child tasks. Please close before submitting for review.</key>
+        <language>fr</language>
+        <message>French child tasks open</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-22 15:05:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1396ab284fb003004da2b7a18110c728</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>There are some active child tasks. Please close before submitting for review.</sys_name>
+        <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+        <sys_update_name>sys_ui_message_1396ab284fb003004da2b7a18110c728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-22 15:05:28</sys_updated_on>
+    </sys_ui_message>
+</record_update>

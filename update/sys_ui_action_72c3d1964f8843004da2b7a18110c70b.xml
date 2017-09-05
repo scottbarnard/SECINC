@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <comments>gs.hasRole('x_80311_security_i_agent')&#13;
 gs.hasRole('x_80311_security_i_agent') &amp;&amp;</comments>
@@ -42,7 +42,7 @@ action.setRedirectURL(current.getTableName() + '.do?sys_id=' + current.sys_id + 
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72c3d1964f8843004da2b7a18110c70b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Assign to Mex</sys_name>
         <sys_overrides/>
         <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
@@ -50,8 +50,8 @@ action.setRedirectURL(current.getTableName() + '.do?sys_id=' + current.sys_id + 
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
         <sys_update_name>sys_ui_action_72c3d1964f8843004da2b7a18110c70b</sys_update_name>
-        <sys_updated_by>Scott@thebarnards.org</sys_updated_by>
-        <sys_updated_on>2017-08-24 17:00:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-05 16:42:02</sys_updated_on>
         <table>x_80311_security_incident_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

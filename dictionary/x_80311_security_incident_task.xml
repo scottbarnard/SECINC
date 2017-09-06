@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_task" label="Security Incident Task" max_length="40" name="x_80311_security_incident_task" sizeclass="1" type="collection">
+    <element audit="true" extends="sm_task" label="Security Incident Task" max_length="40" name="x_80311_security_incident_task" sizeclass="4" type="collection">
         <element label="log run" max_length="40" name="x_80311_security_i_log_run" type="boolean"/>
         <element label="Scheduled End" max_length="40" name="x_80311_security_i_scheduled_end" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Airbus reference" max_length="40" name="x_80311_security_i_u_airbus_ref" type="string"/>

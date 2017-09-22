@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_order" label="Security Incident Request" max_length="40" name="x_80311_security_incident_request" sizeclass="2" type="collection">
+    <element audit="true" extends="sm_order" label="Security Incident Request" max_length="40" name="x_80311_security_incident_request" sizeclass="4" type="collection">
         <element label="Airbus Engaged" max_length="40" name="x_80311_security_i_airbus_engaged" type="boolean"/>
         <element label="Caused by Change" max_length="32" name="x_80311_security_i_caused_by" reference="change_request" type="reference"/>
         <element label="Caused by Release" max_length="32" name="x_80311_security_i_caused_by_release" reference="rm_release" type="reference"/>
@@ -9,18 +9,18 @@
         <element label="Post incident report" max_length="65536" name="x_80311_security_i_pir" type="html"/>
         <element label="Related Problem" max_length="32" name="x_80311_security_i_problem_id" reference="problem" type="reference"/>
         <element label="Request assessments" max_length="1024" name="x_80311_security_i_request_assessments" reference="sys_user" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="x_80311_security_i_security_category" type="string">
-            <choice>
-                <element label="Unauthorised Access" sequence="0" value="1"/>
-                <element label="Data Leakage" sequence="1" value="2"/>
-                <element label="Business Disruption" sequence="2" value="3"/>
-                <element label="Theft or loss of sensitive asset" sequence="3" value="4"/>
-                <element label="Fraud attempt" sequence="4" value="5"/>
-                <element label="Security policy violation" sequence="5" value="6"/>
-            </choice>
-        </element>
         <element label="Forensic" max_length="32" name="x_80311_security_i_u_airbus" reference="core_company" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Airbus Ref" max_length="40" name="x_80311_security_i_u_airbus_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="x_80311_security_i_u_cat" type="string">
+            <choice>
+                <element label="Unauthorised access" sequence="0" value="Unauthorised access"/>
+                <element label="Data leakage" sequence="1" value="Data leakage"/>
+                <element label="Business disruption" sequence="2" value="Business disruption"/>
+                <element label="Theft or loss of sensitive asset" sequence="3" value="Theft or loss of sensitive asset"/>
+                <element label="Fraud attempt" sequence="4" value="Fraud attempt"/>
+                <element label="Security policy violation" sequence="5" value="Security policy violation"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="x_80311_security_i_u_close_code" type="string">
             <choice>
                 <element label="Investigation completed" sequence="0" value="Investigation completed"/>
@@ -49,28 +49,24 @@
                 <element label="4 - Low" sequence="40" value="4"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" dependent="x_80311_security_i_security_category" dependent_on_field="x_80311_security_i_security_category" label="Subcategory" mandatory="true" max_length="40" name="x_80311_security_i_u_subcategory" type="string" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="x_80311_security_i_u_cat" dependent_on_field="x_80311_security_i_u_cat" label="Subcategory" max_length="40" name="x_80311_security_i_u_sub" type="string" use_dependent_field="true">
             <choice>
-                <element dependent_value="2" label="Data leakage detection" sequence="0" value="Data leakage detection"/>
-                <element dependent_value="3" label="Denial of Service" sequence="0" value="Denial of Service"/>
-                <element label="Server or other device breach" sequence="0" value="Server or other device breach"/>
-                <element dependent_value="1" label="Server or other device breach" sequence="0" value="Server or other device breach"/>
-                <element dependent_value="5" label="Spear Phishing" sequence="0" value="Spear Phishing"/>
-                <element dependent_value="4" label="Theft or loss of sensitive asset" sequence="0" value="Theft or loss of sensitive asset"/>
-                <element dependent_value="5" label="CEO fraud" sequence="1" value="CEO fraud"/>
-                <element dependent_value="1" label="Change to privileged group" sequence="1" value="Unauthorised change to privileged group"/>
-                <element dependent_value="3" label="Defacement of Website" sequence="1" value="Defacement of Website"/>
-                <element dependent_value="2" label="Sensitive Information exposure" sequence="1" value="Sensitive Information exposure"/>
-                <element label="Unauthorised changes  to groups" sequence="1" value="Unauthorised changes  to groups"/>
-                <element dependent_value="1" label="Creation of privileged account" sequence="2" value="Unauthorised Privileged account"/>
-                <element dependent_value="6" label="Policy violation by employee" sequence="2" value="Policy violation by employee"/>
-                <element dependent_value="3" label="Ransomware" sequence="2" value="Ransomware"/>
-                <element dependent_value="5" label="Supplier account change" sequence="2" value="Supplier account change"/>
-                <element label="Unauthorised privileged accounts" sequence="2" value="Unauthorised privileged accounts"/>
-                <element dependent_value="3" label="Other cyber attack" sequence="3" value="Other cyber attack"/>
-                <element dependent_value="6" label="Policy violation by contractor" sequence="3" value="Policy violation by contractor"/>
-                <element label="Privilege escalation" sequence="3" value="Privilege escalation"/>
-                <element dependent_value="1" label="Privilege Escalation" sequence="3" value="Privilege Escalation"/>
+                <element dependent_value="Unauthorised access" label="Change to privileged group" sequence="0" value="Change to privileged group"/>
+                <element dependent_value="Data leakage" label="Data leakage detection" sequence="0" value="Data leakage detection"/>
+                <element dependent_value="Business Disruption" label="Defacement of website" sequence="0" value="Defacement of website"/>
+                <element dependent_value="Security policy violation" label="Policy violation by employee" sequence="0" value="Policy violation by employee"/>
+                <element dependent_value="Fraud attempt" label="Spear Phishing" sequence="0" value="Spear Phishing"/>
+                <element dependent_value="Theft or loss of sensitive asset" label="Theft or loss of sensitive asset" sequence="0" value="Theft or loss of sensitive asset"/>
+                <element dependent_value="Fraud attempt" label="CEO Fraud" sequence="1" value="CEO Fraud"/>
+                <element dependent_value="Unauthorised access" label="Creation of privileged account" sequence="1" value="Creation of privileged account"/>
+                <element dependent_value="Business Disruption" label="Denial of service" sequence="1" value="Denial of service"/>
+                <element dependent_value="Security policy violation" label="Policy violation by contractor" sequence="1" value="Policy violation by contractor"/>
+                <element dependent_value="Data leakage" label="Sensitive information exposure" sequence="1" value="Sensitive information exposure"/>
+                <element dependent_value="Business Disruption" label="Ransomware" sequence="2" value="Ransomware"/>
+                <element dependent_value="Unauthorised access" label="Server or other device breach" sequence="2" value="Server or other device breach"/>
+                <element dependent_value="Fraud attempt" label="Supplier account change" sequence="2" value="Supplier account change"/>
+                <element dependent_value="Business Disruption" label="Other cyber attack" sequence="3" value="Other cyber attack"/>
+                <element dependent_value="Unauthorised access" label="Privilege escalation" sequence="3" value="Privilege escalation"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="template" max_length="40" name="x_80311_security_i_u_template" type="string">

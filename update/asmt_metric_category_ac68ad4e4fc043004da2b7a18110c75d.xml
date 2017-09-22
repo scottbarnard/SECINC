@@ -4,8 +4,7 @@
         <create_stakeholders>false</create_stakeholders>
         <description/>
         <details/>
-        <filter table="x_80311_security_incident_request">x_80311_security_i_security_categoryIN1,2,3,4,5,6^EQ<item endquery="false" field="x_80311_security_i_security_category" goto="false" newquery="false" operator="IN" or="false" value="1,2,3,4,5,6"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_80311_security_incident_request">x_80311_security_i_security_categoryIN1,2,3,4,5,6^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <metric_type display_value="Post Incident Review">7c2221ca4fc043004da2b7a18110c7cb</metric_type>
         <name>Recovery</name>

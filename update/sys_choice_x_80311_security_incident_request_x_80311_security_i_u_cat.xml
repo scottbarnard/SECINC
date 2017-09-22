@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_80311_security_i_u_cat" table="x_80311_security_incident_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorised access</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2062d90f110300cc49adabe1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Unauthorised access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data leakage</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>362062d90f110300cc49adabe1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Data leakage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business disruption</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b62062d90f110300cc49adabe1050e8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Business disruption</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theft or loss of sensitive asset</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a2062d90f110300cc49adabe1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Theft or loss of sensitive asset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fraud attempt</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba2062d90f110300cc49adabe1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Fraud attempt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_80311_security_i_u_cat</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security policy violation</label>
+            <language>en</language>
+            <name>x_80311_security_incident_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b22066d90f110300cc49adabe1050e2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+            <value>Security policy violation</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_80311_security_i_u_cat</element>
+            <name>x_80311_security_incident_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 14:24:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fe2062d90f110300cc49adabe1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80311_security_i_u_cat</sys_name>
+            <sys_package display_value="Security Incident" source="x_80311_security_i">798e2ccd4fc803004da2b7a18110c788</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Security Incident">798e2ccd4fc803004da2b7a18110c788</sys_scope>
+            <sys_update_name>sys_choice_x_80311_security_incident_request_x_80311_security_i_u_cat</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 14:24:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
